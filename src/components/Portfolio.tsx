@@ -105,7 +105,7 @@ const Portfolio: React.FC = () => {
         {/* Project 5 */}
         <div className="project-item">
           <a
-            href="https://github.com/username/yolov8-palm-tree-detection"
+            href="https://github.com/Loverzzz/PalmTreeCount"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -130,7 +130,7 @@ const Portfolio: React.FC = () => {
         {/* Project 6 - Stress Prediction Using Text Based */}
         <div className="project-item">
           <a
-            href="https://github.com/username/stress-prediction-text-based"
+            href="https://github.com/Loverzzz/StressPredictionTextBased"
             target="_blank"
             rel="noopener noreferrer"
           >
