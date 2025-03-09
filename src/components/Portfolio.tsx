@@ -20,7 +20,7 @@ const Portfolio: React.FC = () => {
           >
             <img
               src={Project1} // Gambar untuk Project 1
-              alt="Project 1"
+              alt="Diabetes Prediction with Tensorflow Extended (TFX) for Deployment Railway and Monitoring with Promotheus"
               className="project-image"
             />
             <h3 className="text-xl font-semibold mt-4">Project 1</h3>
@@ -42,7 +42,7 @@ const Portfolio: React.FC = () => {
           >
             <img
               src={Project2} // Gambar untuk Project 2
-              alt="Project 2"
+              alt="Dropout Model Prediction with Dashboard Metabase and Streamlit"
               className="project-image"
             />
             <h3 className="text-xl font-semibold mt-4">Project 2</h3>
@@ -62,7 +62,7 @@ const Portfolio: React.FC = () => {
           >
             <img
               src={Project3} // Gambar untuk Project 3
-              alt="Project 3"
+              alt="Employee Attrition Model Prediction and Dashboard Metabase"
               className="project-image"
             />
             <h3 className="text-xl font-semibold mt-4">Project 3</h3>
