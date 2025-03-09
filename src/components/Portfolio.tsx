@@ -82,7 +82,7 @@ const Portfolio: React.FC = () => {
         {/* Project 4*/}
         <div className="project-item">
           <a
-            href="https://github.com/username/air-quality-dashboard"
+            href="https://github.com/Loverzzz/AirQAnalysisBeijing"
             target="_blank"
             rel="noopener noreferrer"
           >
