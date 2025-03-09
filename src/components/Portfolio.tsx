@@ -19,11 +19,13 @@ const Portfolio: React.FC = () => {
             rel="noopener noreferrer"
           >
             <img
-              src={Project1} // Gambar untuk Project 1
+              src={Project1} 
               alt="Diabetes Prediction with Tensorflow Extended (TFX) for Deployment Railway and Monitoring with Promotheus"
               className="project-image"
             />
-            <h3 className="text-xl font-semibold mt-4">Project 1</h3>
+            <h3 className="text-xl font-semibold mt-4">
+              Diabetes Prediction with Tensorflow Extended (TFX) for Deployment Railway and Monitoring with Promotheus
+            </h3>
             <p className="text-gray-700">
               This project uses TensorFlow Extended (TFX) to create an
               end-to-end pipeline for predicting diabetes risk based on
@@ -41,11 +43,13 @@ const Portfolio: React.FC = () => {
             rel="noopener noreferrer"
           >
             <img
-              src={Project2} // Gambar untuk Project 2
+              src={Project2} 
               alt="Dropout Model Prediction with Dashboard Metabase and Streamlit"
               className="project-image"
             />
-            <h3 className="text-xl font-semibold mt-4">Project 2</h3>
+            <h3 className="text-xl font-semibold mt-4">
+              Dropout Model Prediction with Dashboard Metabase and Streamlit
+            </h3>
             <p className="text-gray-700">
               A dashboard created to visualize the performance of students and
               dropout risks.
@@ -61,11 +65,13 @@ const Portfolio: React.FC = () => {
             rel="noopener noreferrer"
           >
             <img
-              src={Project3} // Gambar untuk Project 3
+              src={Project3}
               alt="Employee Attrition Model Prediction and Dashboard Metabase"
               className="project-image"
             />
-            <h3 className="text-xl font-semibold mt-4">Project 3</h3>
+            <h3 className="text-xl font-semibold mt-4">
+              Employee Attrition Model Prediction and Dashboard Metabase
+            </h3>
             <p className="text-gray-700">
               A dashboard to visualize employee attrition data and the factors
               that affect employee retention.
