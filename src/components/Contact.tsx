@@ -1,3 +1,4 @@
+// Contact.tsx
 import React from "react";
 
 const Contact: React.FC = () => {
@@ -28,13 +29,10 @@ const Contact: React.FC = () => {
             required
           />
 
-          {/* Button as link to open email client */}
-          <a
-            href="mailto:reynaldstar@gmail.com?subject=Contact%20from%20Website&body="
-            className="inline-block bg-blue-500 text-white py-2 px-6 rounded-lg text-lg transition duration-300 hover:bg-blue-600"
-          >
+          {/* Updated button */}
+          <button type="submit" className="contact-button">
             Send
-          </a>
+          </button>
         </form>
       </div>
     </section>
