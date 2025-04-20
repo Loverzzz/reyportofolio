@@ -3,8 +3,16 @@ import AboutImage from "../assets/Aldo.jpg"; // Replace with your actual image
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="about py-20">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24 text-center">
+    <section id="about" className="about py-20 relative">
+      {/* Video Background */}
+      <div className="video-background">
+        <video autoPlay loop muted className="video-element">
+          <source src="/assets/bganimation.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div className="container mx-auto px-8 md:px-16 lg:px-24 text-center z-10 relative">
         <h1 className="text-4xl font-bold mb-8">About Me</h1>
         <div className="flex flex-col md:flex-row justify-center items-center">
           {/* Profile Image with White Border */}
